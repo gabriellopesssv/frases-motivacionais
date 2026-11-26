@@ -2,6 +2,10 @@
 
 Site estático de frases motivacionais publicado com GitHub Pages. A cada visita, uma frase é escolhida sem repetir a última exibida naquele navegador; o botão **Outra frase** permite sortear novamente.
 
+## Interface
+
+Os textos visíveis, rótulos acessíveis, idioma e formatos de data ficam em `interface.json`. Altere esse arquivo para editar a interface ou adaptar o site a outro idioma. A estrutura e os estilos continuam em `index.html` e `styles.css`; `app.js` aplica as configurações e controla a seleção das frases.
+
 ## Atualização diária
 
 O workflow `.github/workflows/publish.yml` roda diariamente às 03:00 UTC e também pode ser iniciado manualmente em **Actions → Atualizar frases e publicar no GitHub Pages → Run workflow**. Ele atualiza `quotes.json` a partir de `data/quotes_catalog.json`, registra a alteração no repositório e publica o site.

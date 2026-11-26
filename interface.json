@@ -1,0 +1,31 @@
+{
+  "language": "pt-BR",
+  "locale": "pt-BR",
+  "documentTitle": "Inspira — uma frase para o seu dia",
+  "description": "Uma dose diária de inspiração para seguir em frente.",
+  "brandName": "inspira",
+  "brandLabel": "Inspira, página inicial",
+  "dailyLabel": "UMA PAUSA PARA VOCÊ",
+  "eyebrow": "LEMBRETE DO DIA",
+  "heading": "Um passo de cada vez.",
+  "loadingQuote": "Carregando uma frase para você...",
+  "quotePrefix": "“",
+  "quoteSuffix": "”",
+  "updatedTemplate": "Frases renovadas em {date}.",
+  "updatedDateFormat": {
+    "day": "numeric",
+    "month": "long",
+    "timeZone": "UTC"
+  },
+  "nextButton": "Outra frase",
+  "footerMessage": "Respire fundo. Você está no caminho.",
+  "dateFormat": {
+    "day": "numeric",
+    "month": "long",
+    "year": "numeric"
+  },
+  "errors": {
+    "interface": "Não foi possível carregar a interface.",
+    "quotes": "Não foi possível carregar as frases. Tente novamente em instantes."
+  }
+}

@@ -4,39 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#111827">
-    <meta name="description" content="Uma dose diária de inspiração para seguir em frente.">
-    <title>Inspira — uma frase para o seu dia</title>
+    <meta name="description" content="">
+    <title></title>
     <link rel="stylesheet" href="./styles.css">
     <script src="./app.js" defer></script>
   </head>
   <body>
     <main class="page">
       <header class="topbar">
-        <a class="brand" href="./" aria-label="Inspira, página inicial">
+        <a id="brand" class="brand" href="./">
           <span class="brand-mark" aria-hidden="true">✳</span>
-          <span>inspira</span>
+          <span id="brand-name"></span>
         </a>
-        <span class="daily-label"><span class="status-dot" aria-hidden="true"></span> UMA PAUSA PARA VOCÊ</span>
+        <span class="daily-label"><span class="status-dot" aria-hidden="true"></span><span id="daily-label"></span></span>
       </header>
 
       <section class="quote-card" aria-labelledby="page-title">
         <div class="card-topline">
-          <span class="eyebrow">LEMBRETE DO DIA</span>
+          <span id="eyebrow" class="eyebrow"></span>
           <span class="sparkle" aria-hidden="true">✳</span>
         </div>
-        <h1 id="page-title">Um passo de cada vez.</h1>
-        <p id="quote" class="quote" aria-live="polite" aria-atomic="true">Toda grande jornada começa com a decisão de tentar.</p>
+        <h1 id="page-title"></h1>
+        <p id="quote" class="quote" aria-live="polite" aria-atomic="true"></p>
         <div class="card-footer">
-          <span id="updated" class="updated">Uma mensagem para inspirar o seu caminho.</span>
-          <button id="next-quote" class="next-button" type="button">
-            Outra frase
+          <span id="updated" class="updated"></span>
+          <button id="next-quote" class="next-button" type="button" disabled>
+            <span id="next-label"></span>
             <span aria-hidden="true">↗</span>
           </button>
         </div>
       </section>
 
       <footer class="page-footer">
-        <span>Respire fundo. Você está no caminho.</span>
+        <span id="footer-message"></span>
         <span id="date"></span>
       </footer>
     </main>
