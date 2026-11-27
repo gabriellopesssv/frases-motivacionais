@@ -2,6 +2,8 @@
 
 Site estático de frases motivacionais publicado com GitHub Pages. A cada visita, uma frase é escolhida sem repetir a última exibida naquele navegador; o botão **Outra frase** permite sortear novamente.
 
+Veja [`INTERATIVIDADE.md`](./INTERATIVIDADE.md) para conhecer os filtros por tema, favoritos e ações de compartilhamento.
+
 ## Interface
 
 Os textos visíveis, rótulos acessíveis, idioma e formatos de data ficam em `interface.json`. Altere esse arquivo para editar a interface ou adaptar o site a outro idioma. A estrutura e os estilos continuam em `index.html` e `styles.css`; `app.js` aplica as configurações e controla a seleção das frases.

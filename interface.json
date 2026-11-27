@@ -17,6 +17,25 @@
     "month": "long",
     "timeZone": "UTC"
   },
+  "filterLabel": "Filtrar frases por tema",
+  "filters": [
+    { "id": "all", "label": "Todas" },
+    { "id": "foco", "label": "Foco" },
+    { "id": "coragem", "label": "Coragem" },
+    { "id": "calma", "label": "Calma" },
+    { "id": "progresso", "label": "Progresso" },
+    { "id": "favorites", "label": "Favoritas ({count})" }
+  ],
+  "favoriteLabel": "Favoritar",
+  "favoritedLabel": "Favoritada",
+  "savedFavoriteMessage": "Frase adicionada às suas favoritas.",
+  "removedFavoriteMessage": "Frase removida das suas favoritas.",
+  "copyLabel": "Copiar",
+  "shareLabel": "Compartilhar",
+  "copiedMessage": "Frase copiada para a área de transferência.",
+  "sharedMessage": "Frase pronta para compartilhar.",
+  "shareFallbackMessage": "Frase copiada para você compartilhar.",
+  "emptyFavorites": "Você ainda não salvou favoritas. Toque no coração para guardar uma frase.",
   "nextButton": "Outra frase",
   "footerMessage": "Respire fundo. Você está no caminho.",
   "dateFormat": {
@@ -26,6 +45,9 @@
   },
   "errors": {
     "interface": "Não foi possível carregar a interface.",
-    "quotes": "Não foi possível carregar as frases. Tente novamente em instantes."
+    "quotes": "Não foi possível carregar as frases. Tente novamente em instantes.",
+    "storage": "O navegador não conseguiu salvar essa preferência.",
+    "clipboard": "Não foi possível copiar a frase neste navegador.",
+    "share": "Não foi possível compartilhar a frase agora."
   }
 }

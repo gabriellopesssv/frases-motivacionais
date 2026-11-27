@@ -1,125 +1,155 @@
 {
-  "updatedAt": "2026-11-26",
-  "dailyQuoteId": "coragem",
+  "updatedAt": "2026-11-27",
+  "dailyQuoteId": "hoje",
   "quotes": [
     {
       "id": "comecar",
+      "category": "coragem",
       "text": "Toda grande jornada começa com a decisão de tentar."
     },
     {
       "id": "passos",
+      "category": "foco",
       "text": "Um passo pequeno ainda é um passo na direção certa."
     },
     {
       "id": "possivel",
+      "category": "coragem",
       "text": "Você não precisa ver a escada inteira para dar o primeiro passo."
     },
     {
       "id": "constancia",
+      "category": "progresso",
       "text": "A constância transforma o que parece distante em parte do caminho."
     },
     {
       "id": "coragem",
+      "category": "coragem",
       "text": "Coragem não é não sentir medo; é seguir apesar dele."
     },
     {
       "id": "hoje",
+      "category": "foco",
       "text": "Faça o que puder, com o que tem, onde estiver."
     },
     {
       "id": "tempo",
+      "category": "calma",
       "text": "Florescer também exige respeitar o próprio tempo."
     },
     {
       "id": "recomecar",
+      "category": "coragem",
       "text": "Recomeçar é uma forma bonita de continuar."
     },
     {
       "id": "progresso",
+      "category": "progresso",
       "text": "Progresso não precisa ser perfeito para ser verdadeiro."
     },
     {
       "id": "forca",
+      "category": "coragem",
       "text": "Você já superou dias que um dia pareceram impossíveis."
     },
     {
       "id": "escolha",
+      "category": "foco",
       "text": "A cada manhã, existe uma nova chance de escolher o seu caminho."
     },
     {
       "id": "sonhos",
+      "category": "foco",
       "text": "Dê aos seus sonhos a mesma dedicação que dá aos seus planos."
     },
     {
       "id": "processo",
+      "category": "calma",
       "text": "Confie no processo, inclusive nos dias em que ele parece silencioso."
     },
     {
       "id": "mudanca",
+      "category": "progresso",
       "text": "Pequenas mudanças de hoje abrem grandes possibilidades amanhã."
     },
     {
       "id": "limites",
+      "category": "calma",
       "text": "Descansar também faz parte de chegar mais longe."
     },
     {
       "id": "tentativa",
+      "category": "coragem",
       "text": "Uma tentativa honesta vale mais do que mil planos adiados."
     },
     {
       "id": "presente",
+      "category": "foco",
       "text": "O melhor momento para cuidar do seu futuro é o presente."
     },
     {
       "id": "aprendizado",
+      "category": "progresso",
       "text": "Cada desafio carrega uma oportunidade de descobrir sua força."
     },
     {
       "id": "foco",
+      "category": "foco",
       "text": "Concentre sua energia no próximo passo, não em todos de uma vez."
     },
     {
       "id": "potencial",
+      "category": "coragem",
       "text": "Há mais possibilidades em você do que o medo consegue enxergar."
     },
     {
       "id": "caminho",
+      "category": "progresso",
       "text": "O caminho se revela para quem continua caminhando."
     },
     {
       "id": "paciência",
+      "category": "calma",
       "text": "Seja paciente consigo: coisas boas também levam tempo."
     },
     {
       "id": "atitude",
+      "category": "foco",
       "text": "A atitude de hoje pode ser o começo da mudança que você espera."
     },
     {
       "id": "conquista",
+      "category": "progresso",
       "text": "Celebre cada conquista; todas elas ajudaram você a chegar aqui."
     },
     {
       "id": "novo-dia",
+      "category": "calma",
       "text": "Um novo dia não exige perfeição, apenas uma nova possibilidade."
     },
     {
       "id": "confiança",
+      "category": "coragem",
       "text": "Acredite na pessoa que você está se tornando."
     },
     {
       "id": "persistir",
+      "category": "coragem",
       "text": "Persistir é continuar acreditando, mesmo quando o resultado ainda não chegou."
     },
     {
       "id": "presença",
+      "category": "calma",
       "text": "Este momento também merece a sua presença e atenção."
     },
     {
       "id": "leveza",
+      "category": "calma",
       "text": "Você pode avançar com firmeza e, ainda assim, com leveza."
     },
     {
       "id": "começo",
+      "category": "coragem",
       "text": "Não subestime o poder de começar de novo, quantas vezes for preciso."
     }
   ]

@@ -26,6 +26,24 @@
         </div>
         <h1 id="page-title"></h1>
         <p id="quote" class="quote" aria-live="polite" aria-atomic="true"></p>
+        <div class="quote-toolbar">
+          <div id="category-filters" class="category-filters" role="group"></div>
+          <div class="quote-actions">
+            <button id="favorite-quote" class="action-button" type="button" disabled aria-pressed="false">
+              <span id="favorite-icon" class="action-icon" aria-hidden="true">♡</span>
+              <span id="favorite-label"></span>
+            </button>
+            <button id="copy-quote" class="action-button" type="button" disabled>
+              <span class="action-icon" aria-hidden="true">▣</span>
+              <span id="copy-label"></span>
+            </button>
+            <button id="share-quote" class="action-button" type="button" disabled>
+              <span class="action-icon" aria-hidden="true">↗</span>
+              <span id="share-label"></span>
+            </button>
+          </div>
+        </div>
+        <p id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></p>
         <div class="card-footer">
           <span id="updated" class="updated"></span>
           <button id="next-quote" class="next-button" type="button" disabled>
